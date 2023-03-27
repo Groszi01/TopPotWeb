@@ -1,5 +1,6 @@
 body{
-    background-color: #F1DCBD;
+    background-image: url("fooldal.jpg");
+    background-repeat: no-repeat;
     margin-left: 185pt;
     margin-right: 185pt;
 }
