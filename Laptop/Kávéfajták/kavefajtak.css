@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+    background-color: #F1DCBD;
+}
+
+nav{
+    background-color: #512222;
+    padding: 16px;
+}
+
+nav a{
+    color: white;
+    margin: 13px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
