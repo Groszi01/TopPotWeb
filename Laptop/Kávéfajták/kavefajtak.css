@@ -18,3 +18,10 @@ nav a:hover{
     color: white;
     text-decoration: none;
 }
+
+nav a:first-child img{
+    width: 38px;
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
