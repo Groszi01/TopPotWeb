@@ -7,6 +7,7 @@ body{
 nav{
     background-color: #512222;
     padding: 16px;
+    position: fixed;
 }
 
 nav a{
@@ -24,4 +25,11 @@ nav a:first-child img{
     padding: 0px;
     margin-left: 15px;
     margin-right: 0px;
+}
+
+.banner{
+    background-image: url(../../Képek/Kávék/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
 }
