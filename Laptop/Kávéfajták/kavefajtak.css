@@ -67,18 +67,18 @@ h1{
 }
 
 .img-fluid{
-    height: 263px;
+    height: 260px;
     width: 433px;
     left: 0px;
     right: 0px;
     padding: 0px;
 }
 
-h2{
+.kave h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 23px;
     display: flex;
     align-items: center;
