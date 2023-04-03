@@ -35,13 +35,44 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="kave">
-                    <img src="../../Képek/Kávék/espresso.jpg" alt="" class="img-fluid">
+                    <img src="../../Képek/Kávék/espresso.jpg" alt="" class="img-fluid" id="">
                     <h2>Espresso</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="kave">
-                    <img src="../../Képek/Iconok/csillag_nemetul.png" alt="Csillag" id="napiajanlat">
+                    <button type="button" class="napi_csillag"><img src="../../Képek/Iconok/csillag_nemetul.png" alt="Csillag" id="napiajanlat"></button>
+                    <div id="modalom" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <p>Az americano kávé az igazi erősítője a napodnak! Egy erőteljes, ámde sima ízű kávé, mely a forró vízzel való hígításnak köszönhetően, intenzív aromával rendelkezik.
+
+                            Próbáld ki az americano kávét, ha szükséged van egy kis extra löketre az álmos reggelek vagy a hosszú munkanapok során. Ez az egyszerű, ám annál hatékonyabb kávéital biztosan felrázza és felfrissíti a tested és az elméd!</p>
+                            <img src="../../Képek/Iconok/kave_logo3.png">
+                        </div>
+                      </div>
+                    <script>
+                        const myButton = document.getElementById('napiajanlat');
+
+        
+                        const myModal = document.getElementById('modalom');
+
+                        const closeButton = document.querySelector('.close');
+
+                        myButton.addEventListener('click', function() {
+                        myModal.style.display = "block";
+                        });
+
+                        closeButton.addEventListener('click', function() {
+                        myModal.style.display = "none";
+                        });
+
+                        window.addEventListener('click', function(event) {
+                        if (event.target == myModal) {
+                            myModal.style.display = "none";
+                        }
+                        });
+                    </script>
                     <img src="../../Képek/Kávék/Americano.png" alt="" class="img-fluid">
                     <h2>Americano</h2>
                 </div>
