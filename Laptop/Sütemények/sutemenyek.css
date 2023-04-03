@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+.banner{
+    background-image: url(../../Képek/Sütik/banner2.jpg);
+    background-position: center center;
+    background-position-y: -490px;
+    background-size: cover;
+    height: 470px;
+}
+
+
+body{
+    background-color: #F1DCBD;
+    overflow: scroll;
+}
+
+nav{
+    background-color: #512222;
+    padding: 16px;
+}
+
+nav a{
+    color: white;
+    margin: 13px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:first-child{
+    font-size: 1.5em;
+}
+
+nav a:first-child img{
+    width: 38px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
