@@ -35,28 +35,41 @@
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="kave">
-                    <img src="../../Képek/Kávék/espresso.jpg" alt="" class="img-fluid" id="csillag">
+                    <img src="../../Képek/Kávék/espresso.jpg" alt="" class="img-fluid" id="">
                     <h2>Espresso</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="kave">
-                    <button id="popoverButton" type="button" class="btn btn-lg" data-bs-toggle="popover" title="Napi ajanlat" data-bs-content="Bang!"><img src="../../Képek/Iconok/csillag_nemetul.png" alt="Csillag" id="napiajanlat"></button>
+                    <button type="button" class="napi_csillag"><img src="../../Képek/Iconok/csillag_nemetul.png" alt="Csillag" id="napiajanlat"></button>
+                    <div id="modalom" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <p>Ez itt a modal tartalma.</p>
+                        </div>
+                      </div>
+                    <script>
+                        const myButton = document.getElementById('napiajanlat');
 
-    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
-    <script type="importmap">
-    {
-      "imports": {
-        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/esm/popper.min.js",
-        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.esm.min.js"
-      }
-    }
-    </script>
-    <script type="module">
-      import * as bootstrap from 'bootstrap'
+        
+                        const myModal = document.getElementById('modalom');
 
-      new bootstrap.Popover(document.getElementById('popoverButton'))
-    </script>
+                        const closeButton = document.querySelector('.close');
+
+                        myButton.addEventListener('click', function() {
+                        myModal.style.display = "block";
+                        });
+
+                        closeButton.addEventListener('click', function() {
+                        myModal.style.display = "none";
+                        });
+
+                        window.addEventListener('click', function(event) {
+                        if (event.target == myModal) {
+                            myModal.style.display = "none";
+                        }
+                        });
+                    </script>
                     <img src="../../Képek/Kávék/Americano.png" alt="" class="img-fluid">
                     <h2>Americano</h2>
                 </div>
@@ -75,8 +88,6 @@
             </div>
         </div>
     </div>
-    
-
 
     <div class="footer">
         <footer class="container">
