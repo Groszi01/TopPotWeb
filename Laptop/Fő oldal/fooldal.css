@@ -29,3 +29,20 @@ nav a:first-child img{
     margin-left: 15px;
     margin-right: 0px;
 }
+
+.footer{
+    background-color: #512222;
+    color: white;
+}
+footer li{
+    list-style-type: none;
+}
+
+button{
+    background: #7A5757;
+    border-radius: 4px;
+    stroke: #7A5757;
+    color: #FFFFFF;
+    border: none;
+    width: 10rem;
+}
