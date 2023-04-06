@@ -6,27 +6,14 @@ body{
 
 nav{
     background-color: #512222;
-    padding: 16px;
 }
 
-nav a{
-    color: white;
-    margin: 13px;
-}
-
-nav a:hover{
-    color: white;
-    text-decoration: none;
-}
-
-nav a:first-child{
+#brandnev{
     font-size: 1.5em;
 }
 
-nav a:first-child img{
+nav img{
     width: 38px;
-    margin-left: 15px;
-    margin-right: 0px;
 }
 
 .banner{
