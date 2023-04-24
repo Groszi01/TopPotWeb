@@ -1,0 +1,23 @@
+body{
+    background-color: #F1DCBD;
+}
+
+nav img{
+    width: 30px;
+}
+
+nav{
+    background-color: #512222;
+}
+
+#brandnev{
+    font-size: 1.5em;
+}
+
+.banner{
+    background-image: url(../../Képek/Kávék/banner3.jpg);
+    background-position: center center;
+    background-position-y: -30rem;
+    background-size: cover;
+    height: 470px;
+}
