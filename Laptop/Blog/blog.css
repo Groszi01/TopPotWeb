@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 body{
     background-color: #F1DCBD;
 }
@@ -20,4 +22,78 @@ nav{
     background-position-y: -30rem;
     background-size: cover;
     height: 470px;
+}
+
+
+#blog1, #blog3 {
+    width: 250px;
+    height: 190px;
+    /*padding-left: 10px;*/
+    margin-left: 100px;
+    position: absolute;
+}
+
+#blog2 {
+    width: 250px;
+    height: 190px;
+    margin-left: 900px;
+    position: absolute;
+}
+
+#szoveg1, #szoveg2, #szoveg10 {
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+#szoveg3, #szoveg4 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#szoveg5, #szoveg6 {
+    margin-right: 400px;
+    margin-left: 100px
+}
+
+#szoveg7, #szoveg8, #szoveg9 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #512222;
+    width: 100%;
+}
+
+.footer{
+    background-color: #512222;
+    color: white;
+
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+#feliratkozas{
+    background: #7A5757;
+    border-radius: 4px;
+    stroke: #7A5757;
+    color: #FFFFFF;
+    border: none;
+    width: 10rem;
 }
