@@ -2,8 +2,8 @@
 
 body{
     background-image: url("../../Képek/Kávék/fooldal.jpg");
-    background-repeat: no-repeat;
     background-size: 100%;
+    background-position: fixed;
     overflow: scroll;
 }
 
@@ -34,10 +34,16 @@ h1{
 
 #tartalom{
     background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    width: 799px;
+    height: 670px;
+    left: 185px;
+    top: 100px;
     margin-top: 90px;
+    padding-bottom: 10px;
 }
 
-.footer{
+footer{
     background-color: #512222;
     color: white;
 }
@@ -52,4 +58,16 @@ button{
     color: #FFFFFF;
     border: none;
     width: 10rem;
+}
+
+#szoveg{
+    color: white;
+}
+
+#img{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 220px;
+    top: 150px;
 }
