@@ -78,7 +78,9 @@ h1{
 .footer{
     background-color: #512222;
     color: white;
-
+    bottom: 0;
+    margin-top: 15%;
+    width: 100%;
 }
 
 .row {
