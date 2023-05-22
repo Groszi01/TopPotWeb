@@ -42,37 +42,31 @@
             <div class="col-lg-4 col-md-6">
                 <div class="kave">
                     <button type="button" class="napi_csillag"><img src="../../Képek/Iconok/csillag_nemetul.png" alt="Csillag" id="napiajanlat"></button>
-                    <div id="modalom" class="modal">
-                        <div class="modal-content">
-                          <span class="close">&times;</span>
-                          <p>Az americano kávé az igazi erősítője a napodnak! Egy erőteljes, ámde sima ízű kávé, mely a forró vízzel való hígításnak köszönhetően, intenzív aromával rendelkezik.
-
-                            Próbáld ki az americano kávét, ha szükséged van egy kis extra löketre az álmos reggelek vagy a hosszú munkanapok során. Ez az egyszerű, ám annál hatékonyabb kávéital biztosan felrázza és felfrissíti a tested és az elméd!</p>
-                            <img src="../../Képek/Iconok/kave_logo3.png">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Launch demo modal
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    <script>
-                        const myButton = document.getElementById('napiajanlat');
-
-        
-                        const myModal = document.getElementById('modalom');
-
-                        const closeButton = document.querySelector('.close');
-
-                        myButton.addEventListener('click', function() {
-                        myModal.style.display = "block";
-                        });
-
-                        closeButton.addEventListener('click', function() {
-                        myModal.style.display = "none";
-                        });
-
-                        window.addEventListener('click', function(event) {
-                        if (event.target == myModal) {
-                            myModal.style.display = "none";
-                        }
-                        });
-                    </script>
+                    </div>
                     <img src="../../Képek/Kávék/Americano.png" alt="" class="img-fluid">
                     <h2>Americano</h2>
                 </div>
