@@ -48,7 +48,9 @@ h1{
 .footer{
     background-color: #512222;
     color: white;
+    margin-top: 45.6%;
 }
+
 footer li{
     list-style-type: none;
 }
