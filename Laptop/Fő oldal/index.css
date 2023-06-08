@@ -4,7 +4,7 @@ body{
     background-image: url("../../Képek/Kávék/fooldal.jpg");
     background-size: 100%;
     background-position: fill;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     overflow: initial;
     height: fit-content;
 }
@@ -48,7 +48,7 @@ h1{
 .footer{
     background-color: #512222;
     color: white;
-    margin-top: 45.6%;
+    margin-top: 100%;
 }
 
 footer li{
@@ -77,11 +77,14 @@ footer li{
 }
 
 #feliratkozaskep{
-    width: 250px;
+    width: 400px;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
+    padding-top: 15px;
+    border-radius: 3px;
 }
 
 #feliratkozasLabel{
@@ -111,4 +114,22 @@ footer li{
 
 #modalbg{
     background-color: #F1DCBD;
+}
+
+#input{
+    display: flex;
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+    border-color: #512222;
+    margin-bottom: 7px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#label-feliratkozas{
+    color: #512222;
+    margin-left: 122px;
 }
