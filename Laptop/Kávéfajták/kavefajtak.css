@@ -75,15 +75,6 @@ h1{
     justify-content: center;
 }
 
-#napiajanlat{
-    position: absolute;
-    width: 50px;
-    top: 3px;
-    right: 17px;
-    border: none;
-    cursor: pointer;
-    appearance: none;
-}
 .footer{
     background-color: #512222;
     color: white;
