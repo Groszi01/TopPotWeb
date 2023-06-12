@@ -27,20 +27,22 @@ nav{
 
 
 #blog1, #blog3 {
-    width: 250px;
-    height: 190px;
     /*padding-left: 10px;*/
-    margin-left: 100px;
+    margin-left: 2vh;
     position: absolute;
     display: flex;
+    width: 30vw;
+    height: 30vh;
+    z-index:-1;
 }
 
 #blog2 {
-    width: 250px;
-    height: 190px;
-    margin-left: 900px;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 95vh;
     position: absolute;
     display: flex;
+    z-index:-1;
 }
 
 #szoveg1, #szoveg2, #szoveg10 {
@@ -63,6 +65,9 @@ nav{
     margin-right: 100px;
 }
 
+p {
+    font-size: 2vw;
+}
 
 h1{
     font-family: 'Fredericka the Great', cursive;
