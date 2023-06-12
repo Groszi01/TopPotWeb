@@ -21,8 +21,7 @@ nav img{
 .banner{
     background-image: url(../../Képek/Kávék/banner.jpg);
     background-position: center center;
-    background-position-y: -30rem;
-    background-size: cover;
+    background-position-y: -10rem;
     height: 470px;
 }
 
