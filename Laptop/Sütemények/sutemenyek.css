@@ -75,14 +75,12 @@ h1{
 }
 
 #napiajanlat{
+    width: 40px;
     position: absolute;
-    width: 50px;
-    top: 3px;
-    right: 17px;
-    border: none;
-    cursor: pointer;
-    appearance: none;
+    top: 10px;
+    right: 20px;    
 }
+
 .footer{
     background-color: #512222;
     color: white;
